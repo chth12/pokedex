@@ -14,6 +14,7 @@
 		E94182AD1DCF876A00F72388 /* pokedex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E94182AB1DCF876A00F72388 /* pokedex.xcdatamodeld */; };
 		E94182AF1DCF876A00F72388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94182AE1DCF876A00F72388 /* Assets.xcassets */; };
 		E94182B21DCF876A00F72388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94182B01DCF876A00F72388 /* LaunchScreen.storyboard */; };
+		E947AB0A1DD0DBC700275E1B /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = E947AB091DD0DBC700275E1B /* pokemon.csv */; };
 		E9A078491DD0185200C6213E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A078481DD0185200C6213E /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		E94182AE1DCF876A00F72388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E94182B11DCF876A00F72388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E94182B31DCF876A00F72388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E947AB091DD0DBC700275E1B /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		E9A078481DD0185200C6213E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		FF513C78997D7489095BD24D /* Pods-pokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pokedex/Pods-pokedex.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 				E94182A61DCF876A00F72388 /* ViewController.swift */,
 				E94182A81DCF876A00F72388 /* Main.storyboard */,
 				E94182AE1DCF876A00F72388 /* Assets.xcassets */,
+				E947AB091DD0DBC700275E1B /* pokemon.csv */,
 				E94182B01DCF876A00F72388 /* LaunchScreen.storyboard */,
 				E94182B31DCF876A00F72388 /* Info.plist */,
 				E94182AB1DCF876A00F72388 /* pokedex.xcdatamodeld */,
@@ -160,6 +163,7 @@
 			files = (
 				E94182B21DCF876A00F72388 /* LaunchScreen.storyboard in Resources */,
 				E94182AF1DCF876A00F72388 /* Assets.xcassets in Resources */,
+				E947AB0A1DD0DBC700275E1B /* pokemon.csv in Resources */,
 				E94182AA1DCF876A00F72388 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
